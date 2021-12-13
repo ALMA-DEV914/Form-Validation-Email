@@ -1,6 +1,6 @@
 function sendEmail(){
     Email.send({
-        SecureToken: "c1ee33bb-ffdf-4d5c-8365-53e98c96692f",
+        SecureToken: "8e42596b-1644-45dd-b906-1c79ccac2055 ",
         To : "almabraun37582019@yahoo.com",
         From : document.getElementById("email").value,
         Subject : "New Contact Form Inquiry",
@@ -11,6 +11,6 @@ function sendEmail(){
             path : "https://networkprogramming.files.wordpress.com/2017/11/smtpjs.png"
           }]
     }).then(
-      message => alert("Message Sent Successfully")
+      message => alert("Message Sent Successfully!")
     );
 }
