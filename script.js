@@ -9,4 +9,3 @@ function sendEmail(){
       message => alert("Message Sent Successfully")
     );
 }
-sendEmail();
